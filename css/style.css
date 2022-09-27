@@ -1,0 +1,124 @@
+body {
+  background-color: #f3eae3;
+  font-family:"Fraunces", serif;
+  font-size: 14px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  position: relative;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration:none;
+  box-sizing: border-box;
+}
+.container {
+  border-radius: 10px;
+  display: flex;
+  max-width: 650px;
+  background-color: White;
+  margin: 0 1rem;
+}
+.left-box {
+  width: 50%;
+}
+
+  .left-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.perfume {
+  font-family: "Montserrat",serif;
+  font-weight: bold;
+  font-size:14px;
+  color: #40514E;
+  letter-spacing: 3px;
+  margin-bottom: 1.75rem;
+}
+
+.name {
+  font-family:"Fraunces",sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  padding-right: 2rem;
+  margin-bottom: 1.75rem;
+  color: black;
+}
+
+.description {
+  font-size: 14px;
+  font-family:"Montserrat", serif;
+  color: #40514E;
+  line-height: 22px;
+  margin-bottom: 1.75rem;
+  font-weight: bold;
+
+}
+
+.right-box {
+  padding: 1rem;
+  width: 50%;
+}
+
+.price-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.75rem;
+}
+.current_price {
+  font-family:"Fraunces", sans-serif;
+  font-weight: bolder;
+  color: #3C8067;
+}
+
+.old_price {
+  font-family: "Montserrat", serif;
+  text-decoration: line-through;
+  color: #40514E;
+}
+
+.myButton {
+	background-color:#3c8067;
+	border-radius:28px;
+	border:1px solid #356e58;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#0e6325;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+
+  height: 50px;
+  font-size: 14px;
+  text-align: ;
+  color: #40514E;
+}
+.attribution a {
+  color: #40514E;
+}
+.attribution a:hover {
+  color:#0e6325;
+
+}
